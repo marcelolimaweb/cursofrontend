@@ -1,3 +1,6 @@
 # Curso Front End
 
-# EBAC
+EBAC
+- GIT (Versionamento)
+- GITFLOW
+- BRANCHS
