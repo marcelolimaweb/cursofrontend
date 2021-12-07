@@ -1,0 +1,98 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.pos-one{
+    padding: 10px;
+}
+.pos-one ul{
+    list-style: none;
+    margin: 0 auto;
+}
+.pos-one ul li{
+    text-align: center;    
+    float: left;
+    padding: 8px;
+}
+.pos-one img{
+    width: 250px;
+    height: auto;
+    /*border-radius: 50%;*/
+}
+.pos-one img{
+    filter: grayscale(100%);
+    filter: brightness(50%);
+}
+.pos-one img:hover{
+    filter: grayscale(0%);
+    filter: brightness(100%);
+}
+.pos-one span{
+    font-size: 12px;
+}
+
+.ender{
+    width: 50%;
+    float: left;
+}
+.ender ul{
+    list-style: none;
+    padding: 10px;
+}
+.ender ul li{
+    padding-bottom: 15px;
+}
+.ender h6{
+    font-size: 14px;
+}
+.map{
+    width: 50%;
+    float: left;
+    padding-top: 10px;
+}
+.map h6{
+    font-size: 14px;
+}
+
+/* SMARTPHONES */
+@media (max-width: 480px) {
+
+    section, nav, article {
+      width: 100%;
+      height: auto;
+      background-color: red;
+    }      
+
+}
+
+/* TABLETS */
+@media (min-width: 600px) {
+    body{
+        color: #e8e8e8;
+    }
+    section, nav, article {
+      background: green;
+    }
+    nav ul li{
+        border: none;
+        border-bottom: 2px solid #e8e8e8;
+        margin-bottom: 8px;
+        padding-bottom: 5px;
+      }
+    nav ul li a {
+        display: block;
+        color:white;
+        padding: 8px 16px;
+        text-decoration: none;
+      }
+      
+      nav ul li a:hover {
+        background-color: #555;
+        color:#e8e8e8;
+      }
+      footer{
+          background: #4a1446;
+      }
+}
