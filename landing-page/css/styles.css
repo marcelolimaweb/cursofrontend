@@ -11,16 +11,16 @@ body{
 
 .main-container{
     display: block;
-    width: 100vw;
+    width: 100%;
     margin: 0 auto;
 }
 
 .container{
     display: block;
     float: left;
-    padding: 20px;
-    width: 100%;
-    margin: 0 auto;
+    padding: 0 20px;
+    /*width: 98%;
+    margin: 0 auto;*/
 }
 
 header{
@@ -28,7 +28,7 @@ header{
     display: block;
     float: left;
     width: 100%;
-    padding: 20px;
+    padding: 20px 0;
     border-bottom: 1px solid #4a1446;
 }
 
@@ -66,7 +66,7 @@ section{
     display: block;
     float: left;
     width: 100%;
-    padding: 20px;
+    padding: 20px 0;
 }
 
 section nav{
@@ -103,11 +103,10 @@ section article{
 
 footer{
     background: #4a1446;
-    
     display: block;
     float: left;
     width: 100%;
-    padding: 20px;  
+    padding: 20px 0;  
 }
 
 footer p{
@@ -122,4 +121,72 @@ footer small{
 
 .cog-branding .cog-branding--minimal{
     visibility: hidden !important;
+}
+
+.logo{
+    float: left;
+}
+
+#banner{
+    background-image: url('../images/bg_banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 97%;
+    height: 60vh;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+}
+
+.legenda-container{
+    float: right;
+    margin: 10vh 10vh 0 0;
+    width: 30vw;
+}
+
+.legenda{
+    background-color: rgb(255, 255, 255, .6);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 8rem;
+}
+
+.legenda h5,
+.legenda h4{
+    color: #4a1446;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.button-cta{
+    display: inline;
+    background-color: #ffeb18;
+    color: #4a1446;
+    font-size: 20px;
+    box-shadow: 1px 1px 4px #454545;
+    padding: 10px 15px;
+    width: auto;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 300;
+    float: right;
+    text-transform: uppercase;
+}
+
+.button-cta a{
+    text-decoration: none;
+}
+
+#saiba-mais{
+    background-color: #e8e8e8;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#saiba-mais p, #saiba-mais img{
+    width: 35%;
+    display: block;
+    float: left;
+    padding: 20px 0 0 15rem;
 }
